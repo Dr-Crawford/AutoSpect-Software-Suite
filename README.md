@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/InSpect_logo.png" alt="InSpect Logo" width="600">
+  <img src="./InSpect_logo.png" alt="InSpect Logo" width="600">
 </p>
 
 <h1 align="center">AutoSpect Software Suite</h1>
