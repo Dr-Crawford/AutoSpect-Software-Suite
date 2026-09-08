@@ -1,0 +1,14 @@
+File not found - record\hidden 
+Reference to non-existent field 'output'.
+
+Error in InSpect>InSpect_OutputFcn (line 262)
+
+
+Error in gui_mainfcn (line 264)
+
+
+Error in InSpect (line 52)
+
+MATLAB:nonExistentField
+Error writing to output stream.
+iostream stream error
