@@ -1,6 +1,5 @@
 <a id="top"></a>
 
-# AutoSpect Software Suite
 <p align="center">
   <img src="./InSpect_logo.png" alt="InSpect Logo" width="600">
 </p>
