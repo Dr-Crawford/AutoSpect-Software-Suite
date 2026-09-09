@@ -1,3 +1,6 @@
+<a id="top"></a>
+
+# AutoSpect Software Suite
 <p align="center">
   <img src="./InSpect_logo.png" alt="InSpect Logo" width="600">
 </p>
@@ -7,7 +10,6 @@
 <p align="center">
   Software for processing, quantitative analysis, and visualization of LA-ICP-TOF-MS imaging data
 </p>
-# AutoSpect Software Suite
 
 **AutoSpect** is a software suite for the processing, analysis, visualization, and quantitative interpretation of mass spectrometry imaging data, with a focus on **laser ablation inductively coupled plasma time-of-flight mass spectrometry (LA-ICP-TOF-MS)**.
 
@@ -18,6 +20,33 @@ The suite includes **InSpect**, an interactive graphical interface for viewing a
 > **Required Runtime Update:** MathWorks **R2017a MATLAB Runtime Update**
 
 ---
+
+## Table of Contents
+
+- [Overview](#overview)
+- [Installation](#installation)
+  - [Download AutoSpect / InSpect](#download)
+  - [Install MATLAB Runtime R2017a and Runtime Update](#runtime-install)
+  - [Launch InSpect](#launch)
+- [Software Licensing](#licensing)
+  - [Requesting an InSpect License](#license-request)
+- [System Requirements](#system-requirements)
+- [Files in a Typical Release](#release-files)
+- [MATLAB Runtime Notes for Developers](#developer-runtime)
+- [Troubleshooting](#troubleshooting)
+  - [InSpect does not start](#troubleshoot-start)
+  - [Windows blocks the application](#troubleshoot-windows)
+  - [No license is available](#troubleshoot-license)
+  - [Large datasets are slow](#troubleshoot-performance)
+- [Updates](#updates)
+- [Citation](#citation)
+- [Support and Feedback](#support)
+- [About](#about)
+- [MATLAB Runtime](#matlab-runtime)
+
+---
+
+<a id="overview"></a>
 
 ## Overview
 
@@ -38,7 +67,11 @@ The primary user interface for the suite is **InSpect**.
 
 ---
 
+<a id="installation"></a>
+
 ## Installation
+
+<a id="download"></a>
 
 ### 1. Download AutoSpect / InSpect
 
@@ -47,6 +80,8 @@ Download the latest software package from the **Releases** section of this GitHu
 Extract the downloaded archive to a local folder before running the application.
 
 ---
+
+<a id="runtime-install"></a>
 
 ### 2. Install MATLAB Runtime R2017a and the R2017a Runtime Update
 
@@ -88,6 +123,8 @@ Administrator privileges may be required depending on the MATLAB Runtime install
 
 ---
 
+<a id="launch"></a>
+
 ### 3. Launch InSpect
 
 After installing both MATLAB Runtime R2017a and the R2017a Runtime Update:
@@ -100,6 +137,8 @@ After installing both MATLAB Runtime R2017a and the R2017a Runtime Update:
 3. Allow the application to initialize. The first launch may take longer while MATLAB Runtime components are loaded.
 
 ---
+
+<a id="licensing"></a>
 
 ## Software Licensing
 
@@ -114,6 +153,8 @@ Licensed capabilities may include:
 - **Quantitative Analysis**
 - **Module — Registration**
 - **Module — Map Viewer**
+
+<a id="license-request"></a>
 
 ### Requesting an InSpect License
 
@@ -141,6 +182,8 @@ Once the request has been reviewed, the corresponding license file and any neces
 
 ---
 
+<a id="system-requirements"></a>
+
 ## System Requirements
 
 ### Supported distribution
@@ -154,6 +197,8 @@ The currently distributed compiled application is intended for:
 Hardware requirements depend strongly on dataset size. Large hyperspectral imaging datasets may benefit from substantial system memory and multicore processors.
 
 ---
+
+<a id="release-files"></a>
 
 ## Files in a Typical Release
 
@@ -170,6 +215,8 @@ The MATLAB Runtime installer may be distributed separately rather than included 
 If an `MCRInstaller.exe` or MATLAB Runtime installer is included with a release, it may be used instead of downloading the corresponding base runtime directly from MathWorks. **The R2017a Runtime Update must still be installed unless it is explicitly included and identified as already applied in the distribution instructions.**
 
 ---
+
+<a id="developer-runtime"></a>
 
 ## MATLAB Runtime Notes for Developers
 
@@ -191,7 +238,11 @@ https://www.mathworks.com/help/compiler/
 
 ---
 
+<a id="troubleshooting"></a>
+
 ## Troubleshooting
+
+<a id="troubleshoot-start"></a>
 
 ### InSpect does not start
 
@@ -201,6 +252,8 @@ Confirm that both of the following are installed:
 - The **R2017a MATLAB Runtime Update**
 
 Installing a newer MATLAB Runtime release does not replace the requirement for the R2017a runtime associated with the compiled application. If the base R2017a runtime is installed but the update has not been applied, install the **Update** shown next to **R2017a (9.2)** on the MathWorks MATLAB Runtime download page.
+
+<a id="troubleshoot-windows"></a>
 
 ### Windows blocks the application
 
@@ -216,15 +269,21 @@ Only bypass the warning if you obtained the software from the official AutoSpect
 
 If **Run anyway** is not available, the computer may be subject to additional Windows security settings, Microsoft Smart App Control, or organizational IT policies. In that case, contact your system administrator rather than disabling system-wide security protections.
 
+<a id="troubleshoot-license"></a>
+
 ### The application reports that no license is available
 
 Use the license-request workflow presented by InSpect to generate a license request file. Attach that file to an email sent to `drcrawford.sci@gmail.com` and `crawf472@msu.edu` with the subject **InSpect License Request**.
+
+<a id="troubleshoot-performance"></a>
 
 ### Large datasets are slow to open or process
 
 Performance depends on dataset dimensions, number of measured mass channels, available memory, processor performance, and the analysis being performed. Closing unnecessary applications may make additional system memory available.
 
 ---
+
+<a id="updates"></a>
 
 ## Updates
 
@@ -233,6 +292,8 @@ New releases, bug fixes, and feature updates are distributed through this reposi
 For reproducible analysis, record the **AutoSpect/InSpect version** used to process data and retain that information with the corresponding analysis records.
 
 ---
+
+<a id="citation"></a>
 
 ## Citation
 
@@ -250,6 +311,8 @@ When reporting analyses performed with AutoSpect/InSpect, we also recommend reco
 
 ---
 
+<a id="support"></a>
+
 ## Support and Feedback
 
 Bug reports, feature requests, and reproducible examples are valuable for continued development.
@@ -266,14 +329,18 @@ Do **not** publicly post software license files, license-request files containin
 
 ---
 
+<a id="about"></a>
+
 ## About
 
 AutoSpect is developed for advanced mass spectrometry imaging data analysis, with an emphasis on making complex LA-ICP-TOF-MS workflows accessible through an integrated graphical environment.
 
-**Developer:** Dr. Andrew M. Crawford, Ph.D.  
+**Developer:** Andrew M. Crawford, Ph.D.  
 **Michigan State University**
 
 ---
+
+<a id="matlab-runtime"></a>
 
 ## MATLAB Runtime
 
