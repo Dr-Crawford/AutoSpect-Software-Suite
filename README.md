@@ -14,6 +14,8 @@
 
 The suite includes **InSpect**, an interactive graphical interface for viewing and analyzing imaging data, together with tools for spectral processing, calibration, quantitative analysis, and spatial data interpretation.
 
+For citation information, see the [Citation](#citation) section.
+
 > **Current compiled distribution:** Windows 64-bit  
 > **Required MATLAB Runtime:** MATLAB Runtime **9.2 (R2017a), 64-bit**  
 > **Required Runtime Update:** MathWorks **R2017a MATLAB Runtime Update**
