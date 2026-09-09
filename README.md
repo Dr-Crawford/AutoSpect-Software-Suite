@@ -1,12 +1,3 @@
-<p align="center">
-  <img src="./InSpect_logo.png" alt="InSpect Logo" width="600">
-</p>
-
-<h1 align="center">AutoSpect Software Suite</h1>
-
-<p align="center">
-  Software for processing, quantitative analysis, and visualization of LA-ICP-TOF-MS imaging data
-</p>
 # AutoSpect Software Suite
 
 **AutoSpect** is a software suite for the processing, analysis, visualization, and quantitative interpretation of mass spectrometry imaging data, with a focus on **laser ablation inductively coupled plasma time-of-flight mass spectrometry (LA-ICP-TOF-MS)**.
