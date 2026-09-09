@@ -332,7 +332,7 @@ Do **not** publicly post software license files, license-request files containin
 
 ## About
 
-AutoSpect is developed for advanced mass spectrometry imaging data analysis, with an emphasis on making complex LA-ICP-TOF-MS workflows accessible through an integrated graphical environment.
+AutoSpect is developed for advanced mass spectrometry imaging data analysis, with an emphasis on making complex LA-ICP-TOF-MS workflows accessible through an integrated graphical environment. For citation information, see the [Citation](#citation) section.
 
 **Developer:** Andrew M. Crawford, Ph.D.  
 **Michigan State University**
