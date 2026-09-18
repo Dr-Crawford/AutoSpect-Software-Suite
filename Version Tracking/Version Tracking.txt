@@ -1,0 +1,36 @@
+Version Tracking:
+2024-09-12: UPDATE-added expiration to software, added EUA
+2024-09-19: UPDATE-added toggle buttons to RetroSpect peak shape parameterization tab; added loading of fitted data to initialized GUI (if the data was fitted in AutoSpect and there isn't a loaded dataset in InSpect, upon completion of fitting in AutoSpect the fitted data is then loaded into InSpect).
+2024-09-20: UPDATE-added EUA agreement dialog box, modified scale compression of spectra for better nonlinear optimization
+2024-09-22: UPDATE-Change in Gas Blank Coordinates. Initial versions of the TOFWERS instruments recorded a gas blank by running the raster of the sample with the shutter closed before starting the sample run segment.  unfortunately, the shutter wasn't functioning properly and failed to completely close.  This resulted in ca. 10-20% of the sample being ablated and reported as a gas blank. ESL and TOFWERK say they have corrected this but I don't know exactly how; however, now during the gas blank we request a specific gas blank time and number of collections.  This results in the laser staying wherever it is when the gas blank is recorded and it now reports Xcoordinates, Ycoordiantes, and Zcorrdinates all as -1.  This makes it impossible to visualize the individual spectra because it appears as if all the spectra were collected at the same spot. I have corrected this by assigning arbitrary Xcoordiates as a grid of integers corresponding to the row and column number multiplied by the spot spacing.
+2024-10-29: UPDATE-Added functionality to recall the Retrospect GUI without executing ReSpect.
+2024-11-04: UPDATE (increment to v1.08)-Added ProSpect functionality to allow for background autofitting of data as it is ported over from Synology.  This will allow data to be fit automatically from the instrument. This requires testing.
+2024-11-05: bug fix-needed to chagen "asv_save_matlabsession(out);" to "out=asv_save_matlabsession(out);" in "asv_resave_fcn" LINE 54 so that "out. matlab_f1" which is created inside "asv_save_matlabsession" gets passed along. This bug was noticed in "MENU_programs_launch_ion_selection_gui" of "InSpect" when trying to run the command "asv_load(handles,out.p1,out.matlab_f1,out);" because the field "matlab_f1" did not exist in the structure "out'.
+2024-11-06: UPDATE-Modified the interface for user adjustments of peak tailing parameters to allow switching between the raw spectra and the fitted spectra.
+2024-11-12: bug fix-commented out "out.DriftCorrection.model=model;" line 59 of "calculate_drift_corrections_from_empirical" because it overwrote the variable 'model".
+2024-11-14: UPDATE-added ProSpect Record Keeping.
+2025-04-03: DEBUG-legacy variables updated and ASV_RESAVE_FCN updated to create PeakData_new from original file if it was never created.
+2025-04-16: Hard-set to interpolation for drift modeling
+2025-04-16: sped up peak tracking by compartmentalizing function and removing try-catch
+2025-04-24: added empirical modeling to peak tracking
+2025-04-28: added in ability to change intensity scaling of map
+2025-04-29: updated storage for FITTED and LTIME for faster gui response to changes in mapped element. this has negligible impact on small cans, but really speeds up for large scans.
+2025-05-14: DEBUG-changed num_pix=num_x*num_y*num_z to num_pix=num_x*num_y because if the z coordinates change across an image (e.g., if recoordinate is used, the z-coordinates will all be unique meaning that num_pix will actually be num_pix^2).
+2025-05-15: Updated to force inclusion of 206Pb, 207Pb, and 208Pb for recal of mz.
+2025-08-19: DEBUG: 1) corrected error in cBKGD @ line 12 asv_get_imageroi.m - this caused an error when trying to reassign isotope and ion selections. 2) corrected search for PeakData_original in asv_resave_fcn - this caused an error when trying to resave the data from the ion selection gui return function.
+2025-09-22: UPDATE: Added in the mass/concentration calibration and calibrated map viewer. Incremented to v2.00
+2026-03-11:Update and bug fix: updatated the get_lasso_indices because it failed if the instrument returned an erroneous spot size (Australia collaboration with Alex). Added an update to allow for aborted maps to be cropped to appropriate size and processed (David Zee with LA_urchin_control_2025-11-14_13h37m12s.h5).
+2026-04-08: Updated to run OnClose operations for safer function exits.
+2026-05-19: Updated to account for frame shifts from raw data.
+2026-06-24: Updated ProSpect fitting algorithms.
+2026-07-13: Updated mass calibration/concentration storage, retrieval, and clearing for loading.
+2026-07-14: minor debug in asv_load (Line 75) with 'PSHBTN_CONC_SELECTION' not existing so rmfield errored.
+2026-07-21: Added both the Kharmen and Garwin external calibration GUIs.
+2026-07-23: Changed tail amplitude ratios to area ratios, high tail ratio eqn from 'exponent' to 'constant'.
+2026-08-17: Added Overlay and MapViewer modules.
+2026-08-18: Ion Selection GUI hang after mass calibration. Issue: The Ion Selection GUI could appear to hang indefinitely after a mass calibration had been applied. No MATLAB error was generated; the GUI simply failed to finish initializing. Diagnosis: Testing showed that the behavior was independent of the InSpect software version and was tied to the file structure. The specific trigger was the presence of the variable/structure "out.Calibrations". Files without this field opened the Ion Selection GUI normally. Removing the field "Calibrations" from the structure "out" from an affected file also immediately eliminated the hang. Likely mechanism: The Ion Selection GUI passes the complete "out" structure into numerous GUI callbacks/listeners and stores it in GUI UserData, even though the calibration-history structure is not required for ion selection. Retaining the potentially large out.Calibrations structure during GUI construction appears to cause severe performance degradation. Resolution: out.Calibrations should be excluded from the temporary copy of out passed to the Ion Selection GUI while remaining intact in the primary InSpect data structure. The calibration information is therefore preserved but is no longer unnecessarily carried through the ion-selection interface. Impact: This restores normal Ion Selection GUI initialization for datasets containing saved mass-calibration information without altering the calibration itself or the ion-selection workflow.
+2026-08-18: out.Calibrations causes hangup with ion_selection_gui.
+2026-08-24: Added LicenseManager
+2026-08-27: Added ROI quant
+2026-08-29: DEBUG - corrected an issue with get_lasso_indices.m 
+2026-09-03: Added plotBaselineSignalEditor
