@@ -1,0 +1,118 @@
+-------------------------------------------
+InSpect (c) Dr. Andrew M. Crawford, Ph.D
+crawf472@msu.edu
+DrCrawford.sci@gmail.com
+mccarten@umich.edu
+andrew.crawford@usask.ca
+InSpect is the front end GUI for running AutoSpec, RetroSpect, and ReSpect.  The main functionality, AutoSpec, automatically corrects spectral drift of LA-ICP-TOFMS spectroscopy followed by peak deconvolution.
+-------------------------------------------
+ 
+ 
+
+InSpect
+End User License Agreement
+Version 1.1
+Effective Date: 2026-09-09
+
+IMPORTANT:
+
+This End User License Agreement ("Agreement") is a binding agreement between you, the end user ("END USER"), and Dr. Andrew M. Crawford and Michigan State University ("MSU"), collectively referred to herein as "LICENSOR," solely with respect to the intellectual-property rights each owns or is authorized to license in the SOFTWARE. This Agreement governs the use of AutoSpect, InSpect, RetroSpect, ReSpect, other software included in the AutoSpect suite of spectroscopy tools, and accompanying documentation (collectively, the "SOFTWARE"). By installing, copying, accessing, or using the SOFTWARE, END USER agrees to be bound by this Agreement.
+
+END USER LICENSE AGREEMENT
+
+THE SOFTWARE IS LICENSED, NOT SOLD. EXCEPT FOR THE LIMITED RIGHTS EXPRESSLY GRANTED UNDER THIS AGREEMENT, ALL RIGHT, TITLE, AND INTEREST IN AND TO THE SOFTWARE AND ITS COMPONENTS, INCLUDING APPLICABLE COPYRIGHT AND OTHER INTELLECTUAL-PROPERTY RIGHTS, ARE RETAINED BY THEIR RESPECTIVE OWNERS.
+
+The SOFTWARE incorporates intellectual property developed by Dr. Andrew M. Crawford both prior to and during his affiliation with Michigan State University, together with contributions from Thomas V. O'Halloran and Keith MacRenaris. Intellectual property rights associated with the SOFTWARE are retained by the applicable copyright owners and/or their assignees, including Dr. Andrew M. Crawford, Thomas V. O'Halloran, Keith MacRenaris, and Michigan State University, as applicable. Nothing in this Agreement transfers ownership of the SOFTWARE or any underlying intellectual property to END USER.
+
+END USER MAY NOT DISTRIBUTE, SUBLICENSE, DISCLOSE, CONTRIBUTE, OR OTHERWISE MAKE THE SOFTWARE OR ANY PROPRIETARY PORTION THEREOF AVAILABLE UNDER ANY OPEN-SOURCE, SOURCE-AVAILABLE, COPYLEFT, OR SIMILAR LICENSE, OR TAKE ANY ACTION THAT WOULD REQUIRE DISCLOSURE, LICENSING, OR DISTRIBUTION OF THE SOFTWARE'S PROPRIETARY SOURCE CODE, WITHOUT THE PRIOR EXPRESS WRITTEN PERMISSION OF LICENSOR.
+
+1. OBJECT AND SCOPE OF THE AGREEMENT
+
+Subject to END USER's compliance with this Agreement and the existence of valid license credentials issued for the SOFTWARE, LICENSOR grants END USER a limited, non-exclusive, non-transferable license to install and use the SOFTWARE on the device or devices authorized by the applicable license.
+
+The applicable license may limit use by device, expiration date, perpetual status, feature, privilege, module, or other license parameter. Access to particular functions, modules, or features of the SOFTWARE may therefore be limited by the applicable license credentials.
+
+END USER may create copies of the SOFTWARE reasonably necessary for backup or archival purposes, provided that such copies remain subject to this Agreement and are not used to circumvent applicable license restrictions.
+
+2. UPDATES TO THE SOFTWARE
+
+If LICENSOR makes an update to the SOFTWARE available to END USER and provides notice that the update supersedes a prior version, END USER may continue using the superseded version for no more than ninety (90) days following such notice, unless LICENSOR authorizes continued use in writing.
+
+Nothing in this Agreement imposes any obligation upon LICENSOR to create, provide, maintain, or support any update, upgrade, correction, enhancement, or new version of the SOFTWARE.
+
+3. MODIFICATIONS TO THIS AGREEMENT
+
+LICENSOR reserves the right to revise or update this Agreement from time to time. The current version of this Agreement shall be made available through the SOFTWARE and shall identify its applicable version and effective date.
+
+When an updated version of this Agreement is presented to END USER, END USER is responsible for reviewing the revised terms. Continued use of the SOFTWARE following a material revision to this Agreement may be conditioned upon END USER's affirmative acceptance of the revised Agreement.
+
+END USER may decline to accept a revised Agreement. If continued use of the SOFTWARE is conditioned upon acceptance of the revised Agreement, END USER must discontinue use of the SOFTWARE upon declining the revised Agreement.
+
+4. THIRD-PARTY COMPONENTS
+
+The SOFTWARE may incorporate, distribute, or operate with third-party software, libraries, runtimes, redistributables, or other components that are subject to separate license terms. Nothing in this Agreement modifies, supersedes, or restricts rights or obligations that apply independently to such third-party components under their respective license terms.
+
+5. RESTRICTIONS ON USE
+
+Except to the extent expressly permitted by applicable law notwithstanding this restriction, END USER may not reverse engineer, decompile, disassemble, decode, translate, modify, adapt, reproduce for redistribution, or otherwise attempt to derive the source code, algorithms, internal structure, or underlying ideas of the SOFTWARE.
+
+END USER may not sell, rent, lease, lend, sublicense, redistribute, publish, transfer, assign, or otherwise make the SOFTWARE available to another person or entity except as expressly authorized in writing by LICENSOR or permitted by the applicable license.
+
+6. SCIENTIFIC USE AND RESPONSIBILITY FOR RESULTS
+
+The SOFTWARE is a scientific analysis tool. Results produced by the SOFTWARE depend upon user inputs, instrument performance, calibration, acquisition conditions, processing selections, data quality, and other factors that may be outside the control of LICENSOR. END USER is solely responsible for reviewing, validating, interpreting, and determining the suitability of all results before relying upon them.
+
+Unless separately authorized in writing by LICENSOR, the SOFTWARE is not intended or authorized for clinical diagnosis, direct patient-care decisions, or other safety-critical applications.
+
+7. DATA AND BACKUPS
+
+END USER is responsible for maintaining appropriate backups of all data and for verifying the integrity of input data, output data, analytical results, and other files used with or produced by the SOFTWARE. LICENSOR is not responsible for loss, corruption, alteration, or destruction of data except to the extent such liability cannot lawfully be excluded.
+
+8. DISCLAIMER OF WARRANTIES
+
+END USER AGREES THAT LICENSOR HAS MADE NO EXPRESS WARRANTIES REGARDING THE SOFTWARE EXCEPT AS EXPRESSLY SET FORTH IN A SEPARATE WRITTEN AGREEMENT SIGNED BY AN AUTHORIZED REPRESENTATIVE OF LICENSOR. THE SOFTWARE IS PROVIDED TO END USER "AS IS" AND "AS AVAILABLE" WITHOUT WARRANTY OF ANY KIND.
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, LICENSOR DISCLAIMS ALL WARRANTIES WITH REGARD TO THE SOFTWARE, WHETHER EXPRESS, IMPLIED, STATUTORY, OR OTHERWISE, INCLUDING, WITHOUT LIMITATION, ANY IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, ACCURACY, TITLE, AND NONINFRINGEMENT OF THIRD-PARTY RIGHTS. LICENSOR DOES NOT WARRANT THAT THE FUNCTIONS CONTAINED IN THE SOFTWARE WILL MEET END USER'S REQUIREMENTS OR THAT OPERATION OF THE SOFTWARE WILL BE UNINTERRUPTED OR ERROR FREE.
+
+Some states or jurisdictions do not allow the exclusion of certain implied warranties, so some of the above exclusions or limitations may not apply to END USER.
+
+9. LIMITATION OF LIABILITY
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT WILL LICENSOR BE LIABLE TO END USER FOR ANY LOSS OF USE, LOSS OF DATA, INTERRUPTION OF BUSINESS, LOST PROFITS, OR ANY INDIRECT, SPECIAL, INCIDENTAL, EXEMPLARY, PUNITIVE, OR CONSEQUENTIAL DAMAGES OF ANY KIND, REGARDLESS OF THE FORM OF ACTION, WHETHER IN CONTRACT, TORT (INCLUDING NEGLIGENCE), STRICT LIABILITY, OR OTHERWISE, EVEN IF LICENSOR HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+
+Some states or jurisdictions do not allow the exclusion or limitation of certain incidental or consequential damages, so some of the above limitations or exclusions may not apply to END USER.
+
+10. TERM AND LICENSE DURATION
+
+This Agreement remains effective for so long as END USER possesses a valid license to use the SOFTWARE, unless earlier terminated in accordance with this Agreement. A license designated as perpetual does not expire solely by passage of time but remains subject to the terms of this Agreement.
+
+11. TERMINATION
+
+END USER's rights under this Agreement may be terminated upon a material breach of this Agreement or upon invalidation, expiration, or termination of the applicable license, subject to any cure rights or other terms expressly provided in a separate written agreement.
+
+Upon termination of END USER's right to use the SOFTWARE, END USER must cease use of the SOFTWARE and delete or destroy copies of the SOFTWARE in END USER's possession or control, except to the extent retention is required by applicable law or expressly authorized in writing by LICENSOR.
+
+12. SEVERABILITY
+
+If any provision of this Agreement is held to be invalid, illegal, or unenforceable, the remaining provisions shall remain in full force and effect to the maximum extent permitted by law.
+
+13. WAIVER
+
+A failure or delay by LICENSOR to exercise or enforce any right or provision of this Agreement shall not operate as a waiver of that or any other right or provision.
+
+14. ENTIRE AGREEMENT
+
+This Agreement, together with the applicable license terms and any separate written agreement expressly governing END USER's use of the SOFTWARE, constitutes the agreement concerning the subject matter addressed herein and supersedes prior or contemporaneous oral or written representations concerning that subject matter. In the event of a conflict between this Agreement and a separate written agreement signed by authorized representatives of the applicable parties, the signed written agreement shall control to the extent of the conflict.
+
+END OF TERMS AND CONDITIONS
+
+-------------------------------------------
+InSpect (c) Dr. Andrew M. Crawford, Ph.D
+crawf472@msu.edu
+DrCrawford.sci@gmail.com
+mccarten@umich.edu
+andrew.crawford@usask.ca
+InSpect is the front end GUI for running AutoSpec, RetroSpect, and ReSpect.  The main functionality, AutoSpec, automatically corrects spectral drift of LA-ICP-TOFMS spectroscopy followed by peak deconvolution.
+-------------------------------------------
+ 
+ 
