@@ -1,0 +1,47 @@
+IMPORTANT:
+ 
+This Software End-User License Agreement is a binding agreement between you, the end-user, and the developer, Dr. Andrew M. Crawford and MSU (hereinafter referred to as "DEVELOPER") regarding the use of the software accompanying this Agreement, which includes all software (AutoSpec, InSpect, RetroSpect, ReSpect, and any other software contained in the AutoSpec suite of spectroscopy tools and provided documentation (hereinafter referred to collectively as "SOFTWARE"). By installing, copying, or otherwise using the SOFTWARE, you agree to be bound by the terms of this License Agreement.
+ 
+ 
+END USER LICENSE AGREEMENT
+ 
+THIS SOFTWARE IS THE PROPERTY OF DEVELOPERS, ALL RIGHTS RESERVED.
+ 
+UNDER NO CIRCUMSTANCES IS THIS SOFTWARE TO BE EXPOSED TO OR PLACED UNDER AN OPEN SOURCE LICENSE OF ANY TYPE WITHOUT THE EXPRESSED WRITTEN PERMISSION OF DEVELOPER
+ 
+ 
+1. OBJECT AND SCOPE OF THE AGREEMENT:
+ 
+DEVELOPER grants you a non-exclusive and non-transferable right to use the provided SOFTWARE:
+     •     to install all components of the SOFTWARE on a single device
+     •     to create backup copies of the SOFTWARE
+     •     to install and use the SOFTWARE
+ 
+ 
+2. UPDATE:
+ 
+In the event DEVELOPER provides any update to the SOFTWARE you may not use the earlier version(s) of the Software after 90 days of the provision of the applicable update. This article shall not be interpreted to impose any obligation on DEVELOPER to provide any update to the SOFTWARE.
+ 
+ 
+3. DISCLAIMER OF WARRANTIES:
+ 
+YOU AGREE THAT DEVELOPER HAS MADE NO EXPRESS WARRANTIES TO YOU REGARDING THE SOFTWARE AND THAT THE SOFTWARE IS BEING PROVIDED TO YOU "AS IS" WITHOUT WARRANTY OF ANY KIND.
+ 
+DEVELOPER DISCLAIMS ALL WARRANTIES WITH REGARD TO THE SOFTWARE, EXPRESS OR IMPLIED, INCLUDING, WITHOUT LIMITATION, ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, MERCHANTABLE QUALITY OR NONINFRINGEMENT OF THIRD PARTY RIGHTS.
+ 
+Some states or jurisdictions do not allow the exclusion of implied warranties so the above limitations or parts of it may not apply to you.
+ 
+ 
+4. LIMITATION OF LIABILITY:
+ 
+IN NO EVENT WILL DEVELOPER BE LIABLE TO YOU FOR ANY LOSS OF USE, INTERRUPTION OF BUSINESS, OR ANY DIRECT, INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES OF ANY KIND (INCLUDING LOST PROFITS) REGARDLESS OF THE FORM OF ACTION WHETHER IN CONTRACT, TORT (INCLUDING NEGLIGENCE), STRICT PRODUCT LIABILITY OR OTHERWISE, EVEN IF ENDUSER HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+ 
+Some states or jurisdictions do not allow the exclusion or limitation of incidental or consequential damages, so the above limitation, exclusion or parts of it may not apply to you.
+ 
+ 
+5. USAGE:
+ 
+ANY SOFTWARE MADE AVAILABLE IN FORM OF THIS PACKAGE IS MADE AVAILABLE FOR USE BY END USERS ONLY AND ANY FURTHER MODIFICATION, REVERSE DEVELOPMENT, DECOMPILING, REPRODUCTION, OR REDISTRIBUTION OF THIS PACKAGE OR PARTS OF IT IS EXPRESSLY PROHIBITED. WE DO NOT WARRANT THAT THE FUNCTIONS CONTAINED WILL MEET YOUR REQUIREMENTS OR THAT THE OPERATION WILL BE UNINTERRUPTED OR ERROR FREE. THEY ARE NOT OPTIMISED IN TERMS OF SPEED OR SIZE. THE ENTIRE RISK AS TO THE RESULTS AND PERFORMANCE OF USE IS ASSUMED BY YOU.
+ 
+ 
+END OF TERMS AND CONDITIONS 
