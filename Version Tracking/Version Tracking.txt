@@ -19,7 +19,7 @@ Version Tracking:
 2025-05-15: Updated to force inclusion of 206Pb, 207Pb, and 208Pb for recal of mz.
 2025-08-19: DEBUG: 1) corrected error in cBKGD @ line 12 asv_get_imageroi.m - this caused an error when trying to reassign isotope and ion selections. 2) corrected search for PeakData_original in asv_resave_fcn - this caused an error when trying to resave the data from the ion selection gui return function.
 2025-09-22: UPDATE: Added in the mass/concentration calibration and calibrated map viewer. Incremented to v2.00
-2026-03-11:Update and bug fix: updatated the get_lasso_indices because it failed if the instrument returned an erroneous spot size (Australia collaboration with Alex). Added an update to allow for aborted maps to be cropped to appropriate size and processed (David Zee with LA_urchin_control_2025-11-14_13h37m12s.h5).
+2026-03-11: Update and bug fix: updatated the get_lasso_indices because it failed if the instrument returned an erroneous spot size (Australia collaboration with Alex). Added an update to allow for aborted maps to be cropped to appropriate size and processed (David Zee with LA_urchin_control_2025-11-14_13h37m12s.h5).
 2026-04-08: Updated to run OnClose operations for safer function exits.
 2026-05-19: Updated to account for frame shifts from raw data.
 2026-06-24: Updated ProSpect fitting algorithms.
@@ -35,3 +35,4 @@ Version Tracking:
 2026-08-29: DEBUG - corrected an issue with get_lasso_indices.m 
 2026-09-03: Added plotBaselineSignalEditor
 2026-09-18 (since 2026-09-04): replaced generic matlab icons with InSpect logo and icons. Updated Kharmen GUI for reading directly from TOFWERK format. Added licence info, EULA, version number, and Instruction Manual to help menu. Added ability to fit data from InSpect session that was initially loaded directly from Tofwerks format into InSpect without fitting. Added ROI update functions for ROIs assigned in image tab to be compatible with the spectral fitting tab. Added freehand ROI drawing to image tab. Corrected the compression of images in the image tab when they got to tall. 
+2026-10-26: Incremented to 4.05: Added compatibility for loading M-BLANK fitted data. Known Bugs: the saved ROIs have field ROIs.I not ROIs.ROI (the latter is M-BLANK native), therefore saved ROIs are not immediately compatible at this moment with backward loading into M-BLANK from InSpect.
